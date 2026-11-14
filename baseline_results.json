@@ -1,0 +1,20 @@
+{
+  "SVM (RBF)": {
+    "accuracy": 0.6883,
+    "macro_f1": 0.691,
+    "mae": 0.5263,
+    "features": "Hand-crafted (Color+LBP+GLCM+HOG)"
+  },
+  "Random Forest": {
+    "accuracy": 0.7126,
+    "macro_f1": 0.6299,
+    "mae": 0.4676,
+    "features": "Hand-crafted (Color+LBP+GLCM+HOG)"
+  },
+  "XGBoost": {
+    "accuracy": 0.7672,
+    "macro_f1": 0.7192,
+    "mae": 0.3866,
+    "features": "Hand-crafted (Color+LBP+GLCM+HOG)"
+  }
+}

@@ -1,0 +1,3 @@
+Configuration,Val Accuracy,Note
+Phase 1 only (no fine-tune),0.9259,Backbone frozen throughout
+Phase 1 + Phase 2 (proposed),0.9668,Fine-tune layers >100 in Phase 2

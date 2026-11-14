@@ -1,0 +1,30 @@
+{
+  "accuracy_top1": 0.9668,
+  "accuracy_top2": 0.9956,
+  "macro_precision": 0.9662,
+  "macro_recall": 0.9726,
+  "macro_f1": 0.9691,
+  "weighted_f1": 0.9667,
+  "mae_ordinal": 0.0474,
+  "mae_per_class": {
+    "Healthy": 0.0141,
+    "Mild": 0.037,
+    "Moderate": 0.09,
+    "Severe": 0.0528,
+    "Critical": 0.0058
+  },
+  "auc_roc_macro": 0.9987,
+  "auc_per_class": {
+    "Healthy": 0.9996,
+    "Mild": 0.9991,
+    "Moderate": 0.9973,
+    "Severe": 0.9976,
+    "Critical": 1.0
+  },
+  "dataset": {
+    "raw": 54306,
+    "clean": 54285,
+    "removed": 21,
+    "classes": 38
+  }
+}
